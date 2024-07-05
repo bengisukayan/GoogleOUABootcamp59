@@ -44,9 +44,9 @@ Catstantinapoli, oyuncuların görevleri karakterlerin güçlü yanlarını kull
 -  ###### GoogleOUABootcamp
 
   # SPRINT 1
-* Sprint içi puan değerlendirmesi 100 olarak belirlenmiştir.
+* Sprint içi puan değerlendirmesi 10 olarak belirlenmiştir.
 ###  Puan tamamlama mantığı: 
-Proje boyunca tamamlanması gereken backlog puanı 36'dır. İlk Sprint için bitirilmesi istenilen puan sayısı 10 olarak belirlenmiştir ve hedefe ulaşılmıştır.
+Proje boyunca tamamlanması gereken backlog puanı 17'dir. Her bir görev 1 puandır. İlk Sprint için bitirilmesi istenilen puan sayısı 10 olarak belirlenmiştir ve hedefe ulaşılmıştır.
 ###  Daily Scrum: 
 Whatsapp üzerinden görüşmeler sağlanmıştır. Haftada 2 kere ( Salı, Perşembe) Study Date ayarlanmıştır, müsait olanların birlikte çalışabilmesi, fikir alışverişi yapılabilmesi için. 
 * Oyun fikri ve tasarım ortak karar verilerek oluşturulmuştur. Herkesin bireysel becerileri de göz önünde bulundurularak ek görevleri üstlenmişlerdir.
@@ -69,6 +69,8 @@ Sound Design: Azra Gülbahar
 
 <img width="1000" alt="Ekran Resmi 2024-07-02 22 23 56" src="https://github.com/bengisukayan/GoogleOUABootcamp59/assets/110466495/22ee37dc-809a-4964-bff5-6ad86745049b">
 <img width="714" alt="Ekran Resmi 2024-07-06 01 19 11" src="https://github.com/bengisukayan/GoogleOUABootcamp59/assets/110466495/a911b440-b58e-400c-a6bc-7f8f04d8bdf8">
+<img width="643" alt="Ekran Resmi 2024-07-06 01 38 46" src="https://github.com/bengisukayan/GoogleOUABootcamp59/assets/110466495/38a9bee3-bc8a-49b4-811f-50bdbd1ed390">
+
 
 
 ### Sprint Review:
