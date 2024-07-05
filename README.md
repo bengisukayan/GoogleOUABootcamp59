@@ -64,7 +64,12 @@ Sound Design: Azra Gülbahar
 ### Sprint 1 board update: Sprint Board Screenshot:
 <img width="1144" alt="Ekran Resmi 2024-07-05 23 26 51" src="https://github.com/bengisukayan/GoogleOUABootcamp59/assets/110466495/42789992-ba35-4904-8e41-40e75dd95377">
 
+### Ürün Durumu: 
 <img width="1000" alt="Ekran Resmi 2024-07-02 22 23 29" src="https://github.com/bengisukayan/GoogleOUABootcamp59/assets/110466495/0efe45ed-01d9-44fd-98f8-bb82d9177354"> 
 
 <img width="1000" alt="Ekran Resmi 2024-07-02 22 23 56" src="https://github.com/bengisukayan/GoogleOUABootcamp59/assets/110466495/22ee37dc-809a-4964-bff5-6ad86745049b">
 
+### Sprint Review:
+* Map ve karakterlerin sayısına, low poly stilize bir tasarım diline hakim olmasına karar verilmiştir.
+* Sprint Review katılımcıları: Arda Acar, Ahmet Aydinli, Azra Gülbahar, Bengisu Kayan, Beyza Çisem Atak
+### Sprint Retrospective:
