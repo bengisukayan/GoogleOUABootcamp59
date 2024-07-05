@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 7998539774208977115}
   - component: {fileID: 6622467450082759729}
   m_Layer: 0
-  m_Name: Player
+  m_Name: Player1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -344,7 +344,7 @@ MonoBehaviour:
   <PrefabId>k__BackingField: 0
   <SpawnableCollectionId>k__BackingField: 0
   <SceneId>k__BackingField: 0
-  <AssetPathHash>k__BackingField: 7807759643866311769
+  <AssetPathHash>k__BackingField: 6467958831796850999
 --- !u!114 &6622467450082759729
 MonoBehaviour:
   m_ObjectHideFlags: 0
