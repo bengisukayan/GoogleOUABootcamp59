@@ -17,7 +17,7 @@ U59 Unity Takımı
 
 # Ürün İsmi
 
-Catstantinapoli
+Catstanbul
 
 # Product Backlog URL 
 [U59 UNİTY TRELLO BACKLOG BOARD  ](https://trello.com/invite/b/OknF6Hyz/ATTI681b3d1a02b5b99e1b9e007b78aaf4840DE444E8/catsantinepoli)
@@ -44,7 +44,7 @@ Catstantinapoli, oyuncuların görevleri karakterlerin güçlü yanlarını kull
 -  ###### GoogleOUABootcamp
 
   # SPRINT 1
-* Sprint içi puan değerlendirmesi 10 olarak belirlenmiştir.
+* Sprint içi puan değerlendirmesi 100 olarak belirlenmiştir.
 ###  Puan tamamlama mantığı: 
 Proje boyunca tamamlanması gereken backlog puanı 36'dır. İlk Sprint için bitirilmesi istenilen puan sayısı 10 olarak belirlenmiştir ve hedefe ulaşılmıştır.
 ###  Daily Scrum: 
@@ -60,3 +60,5 @@ Sound Design: Azra Gülbahar
 
 ##### Toplantı ve Whatsapp ScreenShotları
 [WHATSAPP](https://drive.google.com/drive/folders/1ld6D4NxwRXRKjpQuhRPGeJy361bwRSpd?usp=sharing)
+
+### Sprint 1 board update: Sprint Board Screenshot:
