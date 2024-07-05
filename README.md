@@ -62,3 +62,4 @@ Sound Design: Azra Gülbahar
 [WHATSAPP](https://drive.google.com/drive/folders/1ld6D4NxwRXRKjpQuhRPGeJy361bwRSpd?usp=sharing)
 
 ### Sprint 1 board update: Sprint Board Screenshot:
+<img width="1000" alt="Ekran Resmi 2024-07-02 22 23 29" src="https://github.com/bengisukayan/GoogleOUABootcamp59/assets/110466495/0efe45ed-01d9-44fd-98f8-bb82d9177354"> 
