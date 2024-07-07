@@ -227,7 +227,6 @@ GameObject:
   - component: {fileID: 7998539774208977115}
   - component: {fileID: 6622467450082759729}
   - component: {fileID: 2375730735659630787}
-  - component: {fileID: 3816190547045513279}
   m_Layer: 0
   m_Name: Suzan
   m_TagString: Untagged
@@ -319,7 +318,7 @@ MonoBehaviour:
   _networkBehaviours:
   - {fileID: 5687983598716061540}
   - {fileID: 6622467450082759729}
-  - {fileID: 3816190547045513279}
+  - {fileID: 0}
   <SerializedRootNetworkBehaviour>k__BackingField: {fileID: 0}
   <NestedRootNetworkBehaviours>k__BackingField: []
   SerializedTransformProperties:
@@ -345,7 +344,7 @@ MonoBehaviour:
   _spectatorInterpolation: 2
   _enableTeleport: 0
   _teleportThreshold: 1
-  <PrefabId>k__BackingField: 3
+  <PrefabId>k__BackingField: 7
   <SpawnableCollectionId>k__BackingField: 0
   <SceneId>k__BackingField: 0
   <AssetPathHash>k__BackingField: 13680033759832905575
@@ -409,20 +408,3 @@ MonoBehaviour:
   _overrideType: 3
   _updateHostVisibility: 1
   _observerConditions: []
---- !u!114 &3816190547045513279
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4811586007049929012}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 808893c33c384304ab4b2d2d00c1557d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _componentIndexCache: 2
-  _addedNetworkObject: {fileID: 7998539774208977115}
-  _networkObjectCache: {fileID: 7998539774208977115}
-  body: {fileID: 1261845994171650340}
-  endColor: {r: 0.114142045, g: 0.81665313, b: 0.8962264, a: 0}
