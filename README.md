@@ -28,7 +28,7 @@ Catstanbul, oyuncuların görevleri karakterlerin güçlü yanlarını kullanara
 
 # Ürün Hikayesi
 
-Kedilerin hikayenin baş karakteri olduğu alternatif bir evrende geçen bu hikaye Arslan ve Pisi adında iki meraklı kedinin başından geçenlere odaklanıyor. Arslan üniversitede profesördür ve Kaşıkçı Elması'nı araştırmak istemektedir. Pisi, gizli sanatlara ilgisi olan, hayatını falcılıktan kazanan bir kedidir ve büyük güçleri olduğu söylenen Kaşıkçı Elması'nın peşine düşer. Karakterlerimizin yolları Topkapı Sarayında kesişir ve şansız bir takım olaylar sonucu kendilerini bilinmedik bir çevrede bulurlar ve çıkışa ulaşmak için işbirliği yapmak zorundadırlar. 
+Kedilerin hikayenin baş karakteri olduğu alternatif bir evrende geçen bu hikaye Arslan ve Suzan adında iki meraklı kedinin başından geçenlere odaklanıyor. Arslan üniversitede profesördür ve Kaşıkçı Elması'nı araştırmak istemektedir. Suzan, gizli sanatlara ilgisi olan, hayatını falcılıktan kazanan bir kedidir ve büyük güçleri olduğu söylenen Kaşıkçı Elması'nın peşine düşer. Karakterlerimizin yolları Topkapı Sarayında kesişir ve şansız bir takım olaylar sonucu kendilerini bilinmedik bir çevrede bulurlar ve çıkışa ulaşmak için işbirliği yapmak zorundadırlar. 
 
 # Oyun Özelikleri
 
@@ -87,6 +87,6 @@ Sound Design: Azra Gülbahar
 * Sprint Review katılımcıları: Arda Acar, Ahmet Aydinli, Azra Gülbahar, Bengisu Kayan, Beyza Çisem Atak
 ### Sprint Retrospective:
 - Karakter isimlerini tekrar gündeme getirildi ve karakter isimleri değiştirildi.
-- Toplantılar’a daha fazla zaman ayırma konusunda hemfikir olduk.
+- Toplantılar’a daha fazla zaman ayırma konusunda hemfikir oldundu.
 - Gelecekte proje için yapılacak olan görevler üzerine konuşuldu.
 - Unity içerisinde kullanılacak shaderlar seçilmiştir. 
