@@ -12,7 +12,7 @@ U59 Unity Takımı
 
 ###### Azra Gülbahar: Team Member / Developer / Sound Designer
 
-###### Ahmet Aydinli: Team Member / Developer / Searcher
+###### Ahmet Aydinli: Team Member / Developer / Researcher
 
 
 # Ürün İsmi
@@ -83,5 +83,10 @@ Sound Design: Azra Gülbahar
 
 ### Sprint Review:
 * Map ve karakterlerin sayısına, low poly stilize bir tasarım diline hakim olmasına karar verilmiştir.
+* Unity içerisinde kullanılacak shaderlar seçilmiştir. 
 * Sprint Review katılımcıları: Arda Acar, Ahmet Aydinli, Azra Gülbahar, Bengisu Kayan, Beyza Çisem Atak
 ### Sprint Retrospective:
+- Karakter isimlerini tekrar gündeme getirildi ve karakter isimleri değiştirildi.
+- Toplantılar’a daha fazla zaman ayırma konusunda hemfikir olduk.
+- Gelecekte proje için yapılacak olan görevler üzerine konuşuldu.
+- Unity içerisinde kullanılacak shaderlar seçilmiştir. 
