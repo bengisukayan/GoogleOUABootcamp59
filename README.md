@@ -26,6 +26,10 @@ Catstanbul
 
 Catstanbul, oyuncuların görevleri karakterlerin güçlü yanlarını kullanarak tamamlamayı ve bulmacaları çözüp çıkışa ulaşmayı amaçladıkları 3D, üçüncü şahıs, 2 kişilik multiplayer bir kaçış oyunudur.
 
+# Ürün Hikayesi
+
+Kedilerin hikayenin baş karakteri olduğu alternatif bir evrende geçen bu hikaye Arslan ve Pisi adında iki meraklı kedinin başından geçenlere odaklanıyor. Arslan üniversitede profesördür ve Kaşıkçı Elması'nı araştırmak istemektedir. Pisi, gizli sanatlara ilgisi olan, hayatını falcılıktan kazanan bir kedidir ve büyük güçleri olduğu söylenen Kaşıkçı Elması'nın peşine düşer. Karakterlerimizin yolları Topkapı Sarayında kesişir ve şansız bir takım olaylar sonucu kendilerini bilinmedik bir çevrede bulurlar ve çıkışa ulaşmak için işbirliği yapmak zorundadırlar. 
+
 # Oyun Özelikleri
 
 -  3D
