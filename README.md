@@ -72,7 +72,7 @@ Sound Design: Azra Gülbahar
 <img width="643" alt="Ekran Resmi 2024-07-06 01 38 46" src="https://github.com/bengisukayan/GoogleOUABootcamp59/assets/110466495/38a9bee3-bc8a-49b4-811f-50bdbd1ed390">
 
 # SoundTraks
-### [mysterious fall ] (https://www.bandlab.com/track/a34249fe-ad3b-ef11-86c3-000d3a42581b?revId=a24249fe-ad3b-ef11-86c3-000d3a42581b)
+- [Mysterious fall ](https://www.bandlab.com/track/a34249fe-ad3b-ef11-86c3-000d3a42581b?revId=a24249fe-ad3b-ef11-86c3-000d3a42581b)
 
 
 ### Sprint Review:
