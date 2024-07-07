@@ -226,7 +226,7 @@ GameObject:
   - component: {fileID: 7998539774208977115}
   - component: {fileID: 6622467450082759729}
   m_Layer: 0
-  m_Name: Player2
+  m_Name: Arslan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

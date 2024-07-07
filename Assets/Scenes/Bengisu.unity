@@ -203,7 +203,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &397596393
 Transform:
   m_ObjectHideFlags: 0
@@ -523,15 +523,15 @@ PrefabInstance:
     - target: {fileID: 7443408887813606060, guid: 0b650fca685f2eb41a86538aa883e4c1, type: 3}
       propertyPath: _playerPrefab
       value: 
-      objectReference: {fileID: 5779345953927249504, guid: 5b1cbb6e2dadde44dbbb6fa0a41fec1a, type: 3}
+      objectReference: {fileID: 7998539774208977115, guid: 6e180c575a9b8ad4ca2808e9af0fdb6b, type: 3}
     - target: {fileID: 7443408887813606060, guid: 0b650fca685f2eb41a86538aa883e4c1, type: 3}
       propertyPath: Spawns.Array.size
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7443408887813606060, guid: 0b650fca685f2eb41a86538aa883e4c1, type: 3}
       propertyPath: Spawns.Array.data[0]
       value: 
-      objectReference: {fileID: 1165251922}
+      objectReference: {fileID: 108579271}
     - target: {fileID: 7443408887813606060, guid: 0b650fca685f2eb41a86538aa883e4c1, type: 3}
       propertyPath: Spawns.Array.data[1]
       value: 
@@ -735,7 +735,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2124012092
 Transform:
   m_ObjectHideFlags: 0
@@ -805,9 +805,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Client
       objectReference: {fileID: 0}
+    - target: {fileID: 5472121702857680208, guid: 5b1cbb6e2dadde44dbbb6fa0a41fec1a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5779345953927249504, guid: 5b1cbb6e2dadde44dbbb6fa0a41fec1a, type: 3}
       propertyPath: <SceneId>k__BackingField
-      value: 4261380091
+      value: 3755677693
       objectReference: {fileID: 0}
     - target: {fileID: 6624818816819420294, guid: 5b1cbb6e2dadde44dbbb6fa0a41fec1a, type: 3}
       propertyPath: characterSelectorPanel
