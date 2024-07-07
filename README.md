@@ -24,7 +24,7 @@ Catstanbul
 
 # Ürün Açıklaması
 
-Catstantinapoli, oyuncuların görevleri karakterlerin güçlü yanlarını kullanarak tamamlamayı ve bulmacaları çözüp çıkışa ulaşmayı amaçladıkları 3D, üçüncü şahıs, 2 kişilik multiplayer bir kaçış oyunudur.
+Catstanbul, oyuncuların görevleri karakterlerin güçlü yanlarını kullanarak tamamlamayı ve bulmacaları çözüp çıkışa ulaşmayı amaçladıkları 3D, üçüncü şahıs, 2 kişilik multiplayer bir kaçış oyunudur.
 
 # Oyun Özelikleri
 
