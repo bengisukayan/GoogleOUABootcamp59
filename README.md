@@ -38,7 +38,7 @@ Catstanbul, oyuncuların görevleri karakterlerin güçlü yanlarını kullanara
 -  Escape Room Oyunlarını Sevenler
 -  7 yaş ve üzeri oyuncular
 -  Kültürel Miras Sevenler
--  Fantezi Türü Sevenler
+-  Fantazi Türü Sevenler
 -  Mobil ve PC oyuncuları
   
 -  ###### GoogleOUABootcamp
