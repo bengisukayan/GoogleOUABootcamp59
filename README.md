@@ -83,3 +83,4 @@ Sound Design: Azra Gülbahar
 * Map ve karakterlerin sayısına, low poly stilize bir tasarım diline hakim olmasına karar verilmiştir.
 * Sprint Review katılımcıları: Arda Acar, Ahmet Aydinli, Azra Gülbahar, Bengisu Kayan, Beyza Çisem Atak
 ### Sprint Retrospective:
+![Catstanbul](https://github.com/bengisukayan/GoogleOUABootcamp59/assets/99265528/aa70eb67-8717-4088-917c-fd2276890487)
