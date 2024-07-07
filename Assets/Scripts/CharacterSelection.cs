@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using FishNet.Connection;
+using FishNet.Managing.Scened;
 using FishNet.Object;
 using JetBrains.Annotations;
-using FishNet.Connection;
 
 public class CharacterSelection : NetworkBehaviour
 {
@@ -19,7 +21,12 @@ public class CharacterSelection : NetworkBehaviour
             canvasObject.SetActive(false);
     }
 
-    public void SpawnArslan() 
+    private void Start()
+    {
+        characterSelectorPanel.SetActive(true);
+    }
+
+    public void SpawnArslan()
     {
         characterSelectorPanel.SetActive(false);
         Spawn(0, LocalConnection);
