@@ -19,22 +19,21 @@ public class CharacterSelection : NetworkBehaviour
             canvasObject.SetActive(false);
     }
 
-    public void SpawnPlayer1() 
+    public void SpawnArslan() 
     {
         characterSelectorPanel.SetActive(false);
         Spawn(0, LocalConnection);
     }
-    public void SpawnPlayer2()
+    public void SpawnSuzan()
     {
         characterSelectorPanel.SetActive(false);
         Spawn(1, LocalConnection);
     }
 
     [ServerRpc(RequireOwnership = false)]
-    void Spawn(int swapnIndex, NetworkConnection con)
+    void Spawn(int spawnIndex, NetworkConnection con)
     {
-        GameObject player = Instantiate(characters[swapnIndex], SpawnPoint.instance.transform.position, Quaternion.identity);
+        GameObject player = Instantiate(characters[spawnIndex], SpawnPoint.instance.transform.position, Quaternion.identity);
         Spawn(player, con);
     }
-
 }
