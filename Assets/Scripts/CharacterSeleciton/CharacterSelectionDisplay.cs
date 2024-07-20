@@ -136,6 +136,18 @@ public class CharacterSelectionDisplay : NetworkBehaviour
             
             players[i] = new CharacterSelectionState(players[i].ClientId, players[i].CharacterId, true);
         }
+
+        foreach (var player in players)
+        {
+            if (!player.IsLockedIn) { return; }
+        }
+
+        foreach (var player in players)
+        {
+            ServerManager.Instance.SetCharacter(player.ClientId, player.CharacterId);
+        }
+
+        ServerManager.Instance.StartGame();
     }
 
     private void HandlePlayersStateChanged(NetworkListEvent<CharacterSelectionState> changeEvent)
