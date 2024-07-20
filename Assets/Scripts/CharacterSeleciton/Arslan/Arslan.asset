@@ -15,3 +15,4 @@ MonoBehaviour:
   id: 1
   displayName: Arslan
   icon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
+  introPrefab: {fileID: 7416927807068223403, guid: 899b72d0a276e8248881c9468ebb44cf, type: 3}

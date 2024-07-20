@@ -26,7 +26,7 @@ public class Players : MonoBehaviour
             characterIconImage.enabled = false;
         }
 
-        playerNameText.text = $"Player {state.ClientId}";
+        playerNameText.text = state.IsLockedIn ? $"{state.ClientId + 1}. Oyuncu" : $"{state.ClientId}. Oyuncu (Seçiyor...)";
         elements.SetActive(true);
     }
 

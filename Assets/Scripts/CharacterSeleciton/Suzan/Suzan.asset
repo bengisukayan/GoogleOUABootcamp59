@@ -15,3 +15,4 @@ MonoBehaviour:
   id: 2
   displayName: Suzan
   icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
+  introPrefab: {fileID: 3051054380366709822, guid: 250a1ef56b185974595114227d9f4420, type: 3}
