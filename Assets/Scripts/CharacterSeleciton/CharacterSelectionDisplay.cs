@@ -150,7 +150,10 @@ public class CharacterSelectionDisplay : NetworkBehaviour
             ServerManager.Instance.SetCharacter(player.ClientId, player.CharacterId);
         }
 
-        ServerManager.Instance.StartGame();
+        if (players.Count == 2)
+        {
+            ServerManager.Instance.StartGame();
+        }
     }
 
     private void HandlePlayersStateChanged(NetworkListEvent<CharacterSelectionState> changeEvent)
