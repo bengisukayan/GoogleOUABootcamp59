@@ -108,6 +108,9 @@ Daily Scrum toplantıları hem Whatsapp üzerinden hem de Discord üzerinden dev
 #### Sprint 1 board update: Sprint Board Screenshot:
 <img width="1427" alt="Ekran Resmi 2024-07-21 18 46 46" src="https://github.com/user-attachments/assets/6217d5d5-61ed-4fce-b142-e40a357f32a4">
 
+https://github.com/user-attachments/assets/dbd0d86e-6a50-4593-bb10-edcc6a9f07a7
+
+
 
 
 # Sprint Review:
