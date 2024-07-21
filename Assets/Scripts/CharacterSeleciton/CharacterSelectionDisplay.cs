@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
+using Grpc.Core;
 using TMPro;
 using Unity.Netcode;
 using UnityEngine;
@@ -17,6 +18,7 @@ public class CharacterSelectionDisplay : NetworkBehaviour
     [SerializeField] private Players[] playerCards;
     [SerializeField] private Transform introSpawnPoint;
     [SerializeField] private Button lockInButton;
+    [SerializeField] private TMP_Text joinCodeText;
 
     private NetworkList<CharacterSelectionState> players;
     private GameObject introInstance;
@@ -52,6 +54,7 @@ public class CharacterSelectionDisplay : NetworkBehaviour
             {
                 HandleClientConnected(client.ClientId);
             }
+            joinCodeText.text = ServerManager.Instance.JoinCode;
         }
     }
 

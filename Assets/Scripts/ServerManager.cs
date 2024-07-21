@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using Unity.Netcode;
 using UnityEngine.SceneManagement;
+using Unity.Services.Relay.Models;
+using Unity.Services.Relay;
+using System;
+using Unity.Networking.Transport.Relay;
+using Unity.Netcode.Transports.UTP;
 
 public class ServerManager : MonoBehaviour
 {
@@ -14,6 +19,7 @@ public class ServerManager : MonoBehaviour
 
     private bool gameHasStarted;
     public Dictionary<ulong, ClientData> ClientData { get; private set; }
+    public string JoinCode { get; private set; }
 
     private void Awake()
     {
@@ -28,23 +34,38 @@ public class ServerManager : MonoBehaviour
         }
     }
 
-    public void StartHost() {
+    public async void StartHost() {
+        Allocation allocation;
+
+        try
+        {
+            allocation = await RelayService.Instance.CreateAllocationAsync(2);
+        }
+        catch (Exception e)
+        {
+            Debug.LogError($"Relay create allocation request failed {e.Message}");
+            throw;
+        }
+
+        try
+        {
+            JoinCode = await RelayService.Instance.GetJoinCodeAsync(allocation.AllocationId);
+        }
+        catch (Exception e)
+        {
+            Debug.LogError($"Relay get join code request failed {e.Message}");
+            throw;
+        }
+
+        var relayServerData = new RelayServerData(allocation, "dtls");
+        
+        NetworkManager.Singleton.GetComponent<UnityTransport>().SetRelayServerData(relayServerData);
         NetworkManager.Singleton.ConnectionApprovalCallback += ApprovalCheck;
         NetworkManager.Singleton.OnServerStarted += OnNetworkReady;
 
         ClientData = new Dictionary<ulong, ClientData>();
 
         NetworkManager.Singleton.StartHost();
-    }
-
-    public void StartServer()
-    {
-        NetworkManager.Singleton.ConnectionApprovalCallback += ApprovalCheck;
-        NetworkManager.Singleton.OnServerStarted += OnNetworkReady;
-
-        ClientData = new Dictionary<ulong, ClientData>();
-
-        NetworkManager.Singleton.StartServer();
     }
 
     private void ApprovalCheck(NetworkManager.ConnectionApprovalRequest request, NetworkManager.ConnectionApprovalResponse response)
