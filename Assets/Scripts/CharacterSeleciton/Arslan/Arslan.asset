@@ -15,5 +15,5 @@ MonoBehaviour:
   id: 1
   displayName: Arslan
   icon: {fileID: 10911, guid: 0000000000000000f000000000000000, type: 0}
-  introPrefab: {fileID: 7416927807068223403, guid: 899b72d0a276e8248881c9468ebb44cf, type: 3}
-  gameplayPrefab: {fileID: 3259630204118199379, guid: fba1ec8ace180684a947f50feee21ad2, type: 3}
+  introPrefab: {fileID: 7069341676420540657, guid: ffe1b84aac23d9b4999df04e59b11026, type: 3}
+  gameplayPrefab: {fileID: -4013921989074076235, guid: 1c01209246085644b876cecb3d7dba84, type: 3}
