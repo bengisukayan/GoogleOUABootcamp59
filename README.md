@@ -95,7 +95,7 @@ Sound Design: Azra Gülbahar
 - Unity içerisinde kullanılacak shaderlar seçilmiştir.
 
   # SPRINT 2
-- Sprint içinde tamamlanması tahmin edilen puan: 15 puan.
+- Sprint içinde tamamlanması tahmin edilen puan: 20 puan.
 
 ### Daily Scrum: 
 Daily Scrum toplantıları hem Whatsapp üzerinden hem de Discord üzerinden devam etmiştir. Discord'da haftada birkaç gün toplantılar yapılmıştır. Tasarımlar için grup olarak birlikte fikir birliğine varılmıştır. Günlük olarak mekanik yazılımları ve modellemeler yapılmıştır.
@@ -106,6 +106,8 @@ Daily Scrum toplantıları hem Whatsapp üzerinden hem de Discord üzerinden dev
 [ScreenShots](https://drive.google.com/drive/folders/1onGEqUEuWtbP87zE8x0vkDhA529i9us8?usp=sharing)
 
 #### Sprint 1 board update: Sprint Board Screenshot:
+<img width="1427" alt="Ekran Resmi 2024-07-21 18 46 46" src="https://github.com/user-attachments/assets/6217d5d5-61ed-4fce-b142-e40a357f32a4">
+
 
 
 # Sprint Review:
@@ -114,7 +116,7 @@ Sprint 2'nin sonunda ekip ile toplanılmış ve Sprint gözden geçirilmiştir. 
 Sprint Review katılımcıları: Arda Acar, Ahmet Aydinli, Azra Gülbahar, Bengisu Kayan, Beyza Çisem Atak
 
 # Sprint Retrospective:
-- Sprint 2 için alınan puan 17'dir. 
+- Sprint 2 için alınan puan 21'dir. 
 - Oyunda daha önce üzerine konuşulan ve kararlaştırılan levelların ilk 3 bölümünün prototiplemesi bitmiştir. İlk iki bölümün textureları ve asset yerleştirilmesine başlanmıştır. 
 - Ana 2 karakterin ve bölüm sonu boss'un modellemeleri ve texture'ları yapılmıştır. Idle Animasyonları ile birlikte game ready bir şekilde bitirilmiştir.
 - İntro ve Outro müziği'nin yanı sıra, karakterlerin kendine has çıkardığı seslerde yapılmıştır.
