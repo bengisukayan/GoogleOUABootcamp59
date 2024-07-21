@@ -95,7 +95,7 @@ Sound Design: Azra Gülbahar
 - Unity içerisinde kullanılacak shaderlar seçilmiştir.
 
   # SPRINT 2
-Sprint içinde tamamlanması tahmin edilen puan: 15 puan.
+- Sprint içinde tamamlanması tahmin edilen puan: 15 puan.
 
 ### Daily Scrum: 
 Daily Scrum toplantıları hem Whatsapp üzerinden hem de Discord üzerinden devam etmiştir. Discord'da haftada birkaç gün toplantılar yapılmıştır. Tasarımlar için grup olarak birlikte fikir birliğine varılmıştır. Günlük olarak mekanik yazılımları ve modellemeler yapılmıştır.
@@ -116,3 +116,4 @@ Sprint Review katılımcıları: Arda Acar, Ahmet Aydinli, Azra Gülbahar, Bengi
 - İntro ve Outro müziği'nin yanı sıra, karakterlerin kendine has çıkardığı seslerde yapılmıştır.
 - Karakter seçim ekranı bitirilmiştir.
 - Boss bölümü için yapılan NPC ML Agent çalışması sistemsel hatadan kaynaklı silinmiştir bir sonraki sprinte kalmıştır.
+- Son haftayı daha iyi değerlendirmek adına her gün toplanıp birlikte çalışma kararı alınmıştır.
