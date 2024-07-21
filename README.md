@@ -124,5 +124,5 @@ Sprint Review katılımcıları: Arda Acar, Ahmet Aydinli, Azra Gülbahar, Bengi
 - Ana 2 karakterin ve bölüm sonu boss'un modellemeleri ve texture'ları yapılmıştır. Idle Animasyonları ile birlikte game ready bir şekilde bitirilmiştir.
 - İntro ve Outro müziği'nin yanı sıra, karakterlerin kendine has çıkardığı seslerde yapılmıştır.
 - Karakter seçim ekranı bitirilmiştir.
-- Boss bölümü için yapılan NPC ML Agent çalışması sistemsel hatadan kaynaklı silinmiştir bir sonraki sprinte kalmıştır.
+- Boss bölümü için yapılan NPC ML Agent çalışmasının prototipi yapılmıştır. 
 - Son haftayı daha iyi değerlendirmek adına her gün toplanıp birlikte çalışma kararı alınmıştır.
