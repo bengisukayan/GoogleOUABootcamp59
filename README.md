@@ -104,9 +104,11 @@ Daily Scrum toplantıları hem Whatsapp üzerinden hem de Discord üzerinden dev
 
 ###### Toplantı ve Whatsapp ScreenShotları:
 [ScreenShots](https://drive.google.com/drive/folders/1onGEqUEuWtbP87zE8x0vkDhA529i9us8?usp=sharing)
-
 #### Sprint 1 board update: Sprint Board Screenshot:
 <img width="1427" alt="Ekran Resmi 2024-07-21 18 46 46" src="https://github.com/user-attachments/assets/6217d5d5-61ed-4fce-b142-e40a357f32a4">
+
+#### Ürün Durumu: Ekran Görüntüleri:
+![Ekran_Kayd_2024-07-21_225957_2](https://github.com/user-attachments/assets/cc33a8ce-a8b1-4a79-9c7f-4ff8d9f70818)
 
 https://github.com/user-attachments/assets/dbd0d86e-6a50-4593-bb10-edcc6a9f07a7
 
