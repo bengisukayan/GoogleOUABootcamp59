@@ -119,7 +119,7 @@ Sprint 2'nin sonunda ekip ile toplanılmış ve Sprint gözden geçirilmiştir. 
 Sprint Review katılımcıları: Arda Acar, Ahmet Aydinli, Azra Gülbahar, Bengisu Kayan, Beyza Çisem Atak
 
 # Sprint Retrospective:
-- Sprint 2 için alınan puan 21'dir. 
+- Sprint 2 için alınan puan 22'dir. 
 - Oyunda daha önce üzerine konuşulan ve kararlaştırılan levelların ilk 3 bölümünün prototiplemesi bitmiştir. İlk iki bölümün textureları ve asset yerleştirilmesine başlanmıştır. 
 - Ana 2 karakterin ve bölüm sonu boss'un modellemeleri ve texture'ları yapılmıştır. Idle Animasyonları ile birlikte game ready bir şekilde bitirilmiştir.
 - İntro ve Outro müziği'nin yanı sıra, karakterlerin kendine has çıkardığı seslerde yapılmıştır.
