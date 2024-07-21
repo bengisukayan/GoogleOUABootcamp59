@@ -102,7 +102,8 @@ Daily Scrum toplantıları hem Whatsapp üzerinden hem de Discord üzerinden dev
 
 
 
-Toplantı ve Whatsapp ScreenShotları:
+###### Toplantı ve Whatsapp ScreenShotları:
+[ScreenShots](https://drive.google.com/drive/folders/1onGEqUEuWtbP87zE8x0vkDhA529i9us8?usp=sharing)
 
 # Sprint Review:
 
