@@ -79,6 +79,9 @@ Sound Design: Azra Gülbahar
 
 # SoundTraks
 - [Mysterious fall ](https://www.bandlab.com/track/a34249fe-ad3b-ef11-86c3-000d3a42581b?revId=a24249fe-ad3b-ef11-86c3-000d3a42581b)
+- [Intro](https://www.bandlab.com/track/5e2e7fa4-0941-ef11-86c3-000d3a42581b?revId=5c2e7fa4-0941-ef11-86c3-000d3a42581b)
+- [Outro](https://www.bandlab.com/track/38eb14c1-5347-ef11-86c4-000d3a911448?revId=37eb14c1-5347-ef11-86c4-000d3a911448)
+
 
 
 ### Sprint Review:
@@ -89,4 +92,27 @@ Sound Design: Azra Gülbahar
 - Karakter isimlerini tekrar gündeme getirildi ve karakter isimleri değiştirildi.
 - Toplantılar’a daha fazla zaman ayırma konusunda hemfikir oldundu.
 - Gelecekte proje için yapılacak olan görevler üzerine konuşuldu.
-- Unity içerisinde kullanılacak shaderlar seçilmiştir. 
+- Unity içerisinde kullanılacak shaderlar seçilmiştir.
+
+  # SPRINT 2
+Sprint içinde tamamlanması tahmin edilen puan: 15 puan.
+
+### Daily Scrum: 
+Daily Scrum toplantıları hem Whatsapp üzerinden hem de Discord üzerinden devam etmiştir. Discord'da haftada birkaç gün toplantılar yapılmıştır. Tasarımlar için grup olarak birlikte fikir birliğine varılmıştır. Günlük olarak mekanik yazılımları ve modellemeler yapılmıştır.
+
+
+
+Toplantı ve Whatsapp ScreenShotları:
+
+# Sprint Review:
+
+Sprint 2'nin sonunda ekip ile toplanılmış ve Sprint gözden geçirilmiştir. Bütün amaçlara ulaşılmıştır. Multiplayer bir oyun tasarlandığı için online sistemde kod yazılması gerektiği konuşulmuşdur ve 3. Sprint'e bırakılmıştır. Tasarım dili karar verilmiş ve oyuna entegre edilmiştir.
+Sprint Review katılımcıları: Arda Acar, Ahmet Aydinli, Azra Gülbahar, Bengisu Kayan, Beyza Çisem Atak
+
+# Sprint Retrospective:
+- Sprint 2 için alınan puan 17'dir. 
+- Oyunda daha önce üzerine konuşulan ve kararlaştırılan levelların ilk 3 bölümünün prototiplemesi bitmiştir. İlk iki bölümün textureları ve asset yerleştirilmesine başlanmıştır. 
+- Ana 2 karakterin ve bölüm sonu boss'un modellemeleri ve texture'ları yapılmıştır. Idle Animasyonları ile birlikte game ready bir şekilde bitirilmiştir.
+- İntro ve Outro müziği'nin yanı sıra, karakterlerin kendine has çıkardığı seslerde yapılmıştır.
+- Karakter seçim ekranı bitirilmiştir.
+- Boss bölümü için yapılan NPC ML Agent çalışması sistemsel hatadan kaynaklı silinmiştir bir sonraki sprinte kalmıştır.
