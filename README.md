@@ -108,6 +108,10 @@ Daily Scrum toplantıları hem Whatsapp üzerinden hem de Discord üzerinden dev
 <img width="1427" alt="Ekran Resmi 2024-07-21 18 46 46" src="https://github.com/user-attachments/assets/6217d5d5-61ed-4fce-b142-e40a357f32a4">
 
 #### Ürün Durumu: Ekran Görüntüleri:
+<img width="537" alt="Ekran Resmi 2024-07-21 20 26 49" src="https://github.com/user-attachments/assets/b127c59a-b0eb-4bc6-a377-71079250fe7a">
+<img width="645" alt="Ekran Resmi 2024-07-21 20 58 42" src="https://github.com/user-attachments/assets/c20ff6a6-a7cc-4650-ac72-c16f3232f6da">
+<img width="645" alt="Ekran Resmi 2024-07-21 21 08 12" src="https://github.com/user-attachments/assets/854119db-fa58-402e-b6e3-9fd0fd2448fd">
+
 ![Ekran_Kayd_2024-07-21_225957_2](https://github.com/user-attachments/assets/cc33a8ce-a8b1-4a79-9c7f-4ff8d9f70818)
 
 https://github.com/user-attachments/assets/dbd0d86e-6a50-4593-bb10-edcc6a9f07a7
