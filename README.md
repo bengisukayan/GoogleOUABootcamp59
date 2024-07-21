@@ -105,6 +105,9 @@ Daily Scrum toplantıları hem Whatsapp üzerinden hem de Discord üzerinden dev
 ###### Toplantı ve Whatsapp ScreenShotları:
 [ScreenShots](https://drive.google.com/drive/folders/1onGEqUEuWtbP87zE8x0vkDhA529i9us8?usp=sharing)
 
+#### Sprint 1 board update: Sprint Board Screenshot:
+
+
 # Sprint Review:
 
 Sprint 2'nin sonunda ekip ile toplanılmış ve Sprint gözden geçirilmiştir. Bütün amaçlara ulaşılmıştır. Multiplayer bir oyun tasarlandığı için online sistemde kod yazılması gerektiği konuşulmuşdur ve 3. Sprint'e bırakılmıştır. Tasarım dili karar verilmiş ve oyuna entegre edilmiştir.
