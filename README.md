@@ -77,7 +77,7 @@ Sound Design: Azra Gülbahar
 
 ![Catstanbul (2)](https://github.com/bengisukayan/GoogleOUABootcamp59/assets/99265528/106e4c1b-5f4e-4e7b-a42b-84d5679ae49b)
 
-# SoundTraks
+# SoundTrack
 - [Mysterious fall ](https://www.bandlab.com/track/a34249fe-ad3b-ef11-86c3-000d3a42581b?revId=a24249fe-ad3b-ef11-86c3-000d3a42581b)
 - [Intro](https://www.bandlab.com/track/5e2e7fa4-0941-ef11-86c3-000d3a42581b?revId=5c2e7fa4-0941-ef11-86c3-000d3a42581b)
 - [Outro](https://www.bandlab.com/track/38eb14c1-5347-ef11-86c4-000d3a911448?revId=37eb14c1-5347-ef11-86c4-000d3a911448)
