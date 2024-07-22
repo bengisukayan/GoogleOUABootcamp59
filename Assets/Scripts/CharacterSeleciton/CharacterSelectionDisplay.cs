@@ -20,7 +20,7 @@ public class CharacterSelectionDisplay : NetworkBehaviour
     [SerializeField] private Button lockInButton;
     [SerializeField] private TMP_Text joinCodeText;
 
-    private NetworkList<CharacterSelectionState> players;
+    public NetworkList<CharacterSelectionState> players;
     private GameObject introInstance;
     private List<CharacterSelectionButton> characterButtons = new List<CharacterSelectionButton>();
 
