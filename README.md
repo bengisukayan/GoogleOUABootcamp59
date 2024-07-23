@@ -118,7 +118,7 @@ https://github.com/user-attachments/assets/dbd0d86e-6a50-4593-bb10-edcc6a9f07a7
 
 
 
-# 1. Sprint'in amacı
+# 2. Sprint'in amacı
 Ana karakter modellemelerinin rig, idle animasyon ve texturelarıyla tamamen bitmesi. ( 9puan ) İntro ve Outro müziğinin yapılması (2 puan) Karakterlerin kendilerine özel seslerinin yapılması (2 puan). ilk 3 levellın prototiplenmesi. (3 Puan) ilk 2 level'ın asetlerinin yerleştirilmesi (2 puan) Lobi ekranının yapılması. (1 puan) Çalışan bir NPC kodunun yazılması. (1 puan) = hedeflenen puan 20'dir.
 # Sprint Review:
 
