@@ -132,7 +132,10 @@ PrefabInstance:
       addedObject: {fileID: 5126193072312609262}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: aeb1703f89c35b2499befa210e48d773, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 246160836918532282}
+      addedObject: {fileID: 4715151473343844242}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: aeb1703f89c35b2499befa210e48d773, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8042818201780186673}
     - targetCorrespondingSourceObject: {fileID: 1082271958561512970, guid: aeb1703f89c35b2499befa210e48d773, type: 3}
       insertIndex: -1
       addedObject: {fileID: 4824541485115095746}
@@ -157,7 +160,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  GlobalObjectIdHash: 2568581139
+  GlobalObjectIdHash: 2680227669
   InScenePlacedSourceGlobalObjectIdHash: 0
   AlwaysReplicateAsRoot: 0
   SynchronizeTransform: 1
@@ -178,9 +181,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52ad5b562f6ef5149a0883062d3dda8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementSpeed: 7
-  rotationSpeed: 500
---- !u!95 &246160836918532282
+  playerAnim: {fileID: 8042818201780186673}
+  playerRigid: {fileID: 4715151473343844242}
+  w_speed: 120
+  wb_speed: 120
+  olw_speed: 120
+  rn_speed: 160
+  ro_speed: 90
+  walking: 0
+  playerTrans: {fileID: 8884701798089158658}
+--- !u!54 &4715151473343844242
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8072453407716190904}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
+--- !u!95 &8042818201780186673
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -260,3 +297,8 @@ MonoBehaviour:
   InLocalSpace: 0
   Interpolate: 1
   SlerpPosition: 0
+--- !u!4 &8884701798089158658 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: aeb1703f89c35b2499befa210e48d773, type: 3}
+  m_PrefabInstance: {fileID: 8991001572315863017}
+  m_PrefabAsset: {fileID: 0}
