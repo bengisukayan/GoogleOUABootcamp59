@@ -14,6 +14,7 @@ public class AhmetCharacterController : MonoBehaviour
     private bool isGrounded;
 
     private Rigidbody rb;
+    private PlayerHealth playerHealth; // PlayerHealth1 bileþenine referans
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +22,12 @@ public class AhmetCharacterController : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked;
         rb = GetComponent<Rigidbody>();
         cameraTransform = Camera.main.transform;
+        playerHealth = GetComponent<PlayerHealth>(); // PlayerHealth1 bileþenini al
+
+        if (playerHealth == null)
+        {
+            Debug.LogError("PlayerHealth1 bileþeni bulunamadý!");
+        }
     }
 
     // Update is called once per frame
@@ -43,12 +50,8 @@ public class AhmetCharacterController : MonoBehaviour
             moveZ *= runSpeed / speed;
         }
 
-        Debug.Log("moveX: " + moveX + ", moveZ: " + moveZ);  // Hata ayýklama için eklendi
-
         Vector3 move = transform.right * moveX + transform.forward * moveZ;
         rb.velocity = new Vector3(move.x, moveDirectionY, move.z);
-
-        Debug.Log("rb.velocity: " + rb.velocity);  // Hata ayýklama için eklendi
     }
 
     void Rotate()
@@ -76,6 +79,13 @@ public class AhmetCharacterController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
+        }
+        else if (collision.gameObject.CompareTag("EnemyProjectile")) // Düþman mermisiyle çarpýþma
+        {
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(10); // Örnek hasar deðeri
+            }
         }
     }
 
