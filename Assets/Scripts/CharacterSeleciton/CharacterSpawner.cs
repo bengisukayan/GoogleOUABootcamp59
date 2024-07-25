@@ -19,13 +19,13 @@ public class CharacterSpawner : NetworkBehaviour
             {
                 if (client.Value.characterId == 1)
                 {
-                    var spawnPos = new Vector3(-3f, 0f, 0f); //change spawnpoint
+                    var spawnPos = new Vector3(-3f, 0.49f, 0f); //change spawnpoint
                     var characterInstance = Instantiate(character.GameplayPrefab, spawnPos, Quaternion.identity);
                     characterInstance.SpawnAsPlayerObject(client.Value.clientId);
                 }
                 else if (client.Value.characterId == 2)
                 {
-                    var spawnPos = new Vector3(3f, 0f, 0f); //change spawnpoint
+                    var spawnPos = new Vector3(3f, 0.4f, 0f); //change spawnpoint
                     var characterInstance = Instantiate(character.GameplayPrefab, spawnPos, Quaternion.identity);
                     characterInstance.SpawnAsPlayerObject(client.Value.clientId);
                 }
