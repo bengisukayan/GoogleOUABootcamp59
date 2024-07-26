@@ -1,12 +1,19 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using Unity.Netcode;
 
-public class CamLookat : MonoBehaviour
+public class CameLookat : NetworkBehaviour
 {
-    public Transform player, cameraTrans;
-	
-	void Update(){
-		cameraTrans.LookAt(player);
-	}
+    public Transform target;
+    public Vector3 offset;
+
+    private void LateUpdate()
+    {
+        if (!IsOwner) return;
+
+        if (target)
+        {
+            transform.position = target.position + offset;
+            transform.LookAt(target);
+        }
+    }
 }
