@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/CharacterSelection.unity
     guid: d8c0aa53b2a87534196f908655a00bc0
   - enabled: 1
-    path: Assets/Scenes/Arda_Lvl_Dsgn_Assets/Arda.unity
+    path: Assets/Scenes/Arda_Lvl_Dsgn_Assets/Game.unity
     guid: 1ecbaeed8648c27419622f3de319567b
   m_configObjects: {}
