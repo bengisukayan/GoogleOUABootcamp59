@@ -2,12 +2,13 @@ using UnityEngine;
 using Unity.Netcode;
 using Cinemachine;
 
-public class ThirdPersonMovement : NetworkBehaviour
+public class PlayerController : NetworkBehaviour
 {
     public CharacterController controller;
     public Transform cam;
 	public CinemachineFreeLook vc;
 	public AudioListener listener;
+	public Animator animator;
 
     public float speed = 6;
     public float gravity = -9.81f;
@@ -65,6 +66,12 @@ public class ThirdPersonMovement : NetworkBehaviour
 
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
+
+			animator.SetFloat("forward", direction.magnitude * speed);
+        }
+		else
+        {
+            animator.SetFloat("forward", 0f);
         }
     }
 }

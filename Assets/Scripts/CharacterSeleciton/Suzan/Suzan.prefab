@@ -1196,7 +1196,8 @@ MonoBehaviour:
   cam: {fileID: 2741780072186612590}
   vc: {fileID: 324474922986303623}
   listener: {fileID: 7898504591609782325}
-  speed: 6
+  animator: {fileID: 854371850390447852}
+  speed: 4
   gravity: -9.81
   jumpHeight: 1
   groundCheck: {fileID: 346425752683769677}
@@ -1269,91 +1270,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad8deae8091111f4eb30a56c1f4e0d3e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TransitionStateInfoList:
-  - IsCrossFadeExit: 0
-    Layer: 0
-    OriginatingState: -1097182928
-    DestinationState: -1182357144
-    TransitionDuration: 0.25
-    TriggerNameHash: -601574123
-    TransitionIndex: 0
-  - IsCrossFadeExit: 0
-    Layer: 0
-    OriginatingState: -1097182928
-    DestinationState: 1119035288
-    TransitionDuration: 0.25
-    TriggerNameHash: 1349952704
-    TransitionIndex: 1
-  - IsCrossFadeExit: 0
-    Layer: 0
-    OriginatingState: -1097182928
-    DestinationState: -399284696
-    TransitionDuration: 0.25
-    TriggerNameHash: 858298343
-    TransitionIndex: 2
-  - IsCrossFadeExit: 0
-    Layer: 0
-    OriginatingState: 1119035288
-    DestinationState: -1182357144
-    TransitionDuration: 0.25
-    TriggerNameHash: -601574123
-    TransitionIndex: 0
-  - IsCrossFadeExit: 0
-    Layer: 0
-    OriginatingState: 1119035288
-    DestinationState: -399284696
-    TransitionDuration: 0.25
-    TriggerNameHash: -1919845803
-    TransitionIndex: 1
-  - IsCrossFadeExit: 0
-    Layer: 0
-    OriginatingState: 1119035288
-    DestinationState: -1097182928
-    TransitionDuration: 0.25
-    TriggerNameHash: 858298343
-    TransitionIndex: 2
-  - IsCrossFadeExit: 0
-    Layer: 0
-    OriginatingState: -1182357144
-    DestinationState: -399284696
-    TransitionDuration: 0.25
-    TriggerNameHash: -1919845803
-    TransitionIndex: 0
-  - IsCrossFadeExit: 0
-    Layer: 0
-    OriginatingState: -1182357144
-    DestinationState: -1097182928
-    TransitionDuration: 0.25
-    TriggerNameHash: 858298343
-    TransitionIndex: 1
-  - IsCrossFadeExit: 0
-    Layer: 0
-    OriginatingState: -1182357144
-    DestinationState: 1119035288
-    TransitionDuration: 0.25
-    TriggerNameHash: 1349952704
-    TransitionIndex: 2
-  - IsCrossFadeExit: 0
-    Layer: 0
-    OriginatingState: -399284696
-    DestinationState: -1182357144
-    TransitionDuration: 0.25
-    TriggerNameHash: -601574123
-    TransitionIndex: 0
-  - IsCrossFadeExit: 0
-    Layer: 0
-    OriginatingState: -399284696
-    DestinationState: 1119035288
-    TransitionDuration: 0.25
-    TriggerNameHash: 1349952704
-    TransitionIndex: 1
-  - IsCrossFadeExit: 0
-    Layer: 0
-    OriginatingState: -399284696
-    DestinationState: -1097182928
-    TransitionDuration: 0.25
-    TriggerNameHash: 858298343
-    TransitionIndex: 2
+  TransitionStateInfoList: []
   m_Animator: {fileID: 854371850390447852}
 --- !u!143 &4758975350715915977
 CharacterController:
