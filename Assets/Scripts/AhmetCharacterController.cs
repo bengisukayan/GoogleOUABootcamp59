@@ -14,23 +14,15 @@ public class AhmetCharacterController : MonoBehaviour
     private bool isGrounded;
 
     private Rigidbody rb;
-    private PlayerHealth playerHealth; // PlayerHealth1 bileþenine referans
+    public float health = 100f;
 
-    // Start is called before the first frame update
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         rb = GetComponent<Rigidbody>();
         cameraTransform = Camera.main.transform;
-        playerHealth = GetComponent<PlayerHealth>(); // PlayerHealth1 bileþenini al
-
-        if (playerHealth == null)
-        {
-            Debug.LogError("PlayerHealth1 bileþeni bulunamadý!");
-        }
     }
 
-    // Update is called once per frame
     void Update()
     {
         Move();
@@ -40,7 +32,6 @@ public class AhmetCharacterController : MonoBehaviour
 
     void Move()
     {
-        float moveDirectionY = rb.velocity.y;
         float moveX = Input.GetAxis("Horizontal") * speed;
         float moveZ = Input.GetAxis("Vertical") * speed;
 
@@ -51,7 +42,7 @@ public class AhmetCharacterController : MonoBehaviour
         }
 
         Vector3 move = transform.right * moveX + transform.forward * moveZ;
-        rb.velocity = new Vector3(move.x, moveDirectionY, move.z);
+        rb.velocity = new Vector3(move.x, rb.velocity.y, move.z);
     }
 
     void Rotate()
@@ -80,13 +71,6 @@ public class AhmetCharacterController : MonoBehaviour
         {
             isGrounded = true;
         }
-        else if (collision.gameObject.CompareTag("EnemyProjectile")) // Düþman mermisiyle çarpýþma
-        {
-            if (playerHealth != null)
-            {
-                playerHealth.TakeDamage(10); // Örnek hasar deðeri
-            }
-        }
     }
 
     void OnCollisionExit(Collision collision)
@@ -94,6 +78,16 @@ public class AhmetCharacterController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = false;
+        }
+    }
+
+    public void TakeDamage(float damage)
+    {
+        health -= damage;
+        if (health < 0)
+        {
+            health = 0;
+            Debug.Log("Player has died."); // Saðlýk 0 olduðunda
         }
     }
 }

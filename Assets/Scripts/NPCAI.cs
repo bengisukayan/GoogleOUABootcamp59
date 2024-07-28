@@ -30,7 +30,6 @@ public class NPCAI : MonoBehaviour
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, player);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, player);
 
-        // Patrol, Chase, Attack
         if (!playerInSightRange && !playerInAttackRange) Patroling();
         if (playerInSightRange && !playerInAttackRange) ChasePlayer();
         if (playerInSightRange && playerInAttackRange) AttackPlayer();
@@ -76,7 +75,6 @@ public class NPCAI : MonoBehaviour
     void AttackPlayer()
     {
         _agent.SetDestination(transform.position);
-
         transform.LookAt(_player);
 
         if (!alreadyAttacked)
@@ -87,8 +85,8 @@ public class NPCAI : MonoBehaviour
             sphere.SetActive(true);
 
             Rigidbody rb = sphere.GetComponent<Rigidbody>();
-            rb.velocity = Vector3.zero; // Var olan hýzý sýfýrla
-            rb.angularVelocity = Vector3.zero; // Var olan açýsal hýzý sýfýrla
+            rb.velocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
             rb.AddForce(transform.forward * 25f, ForceMode.Impulse);
             rb.AddForce(transform.up * 7f, ForceMode.Impulse);
 
