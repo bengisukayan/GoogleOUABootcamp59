@@ -35,6 +35,12 @@ public class PlayerController : NetworkBehaviour
 		}
     }
 
+	void Start()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
+
     void Update()
     {
 		if (!IsOwner) return;
