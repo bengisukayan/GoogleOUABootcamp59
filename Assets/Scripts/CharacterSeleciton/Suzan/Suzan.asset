@@ -16,4 +16,4 @@ MonoBehaviour:
   displayName: Suzan
   icon: {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   introPrefab: {fileID: 4962410261635600230, guid: 02a60e51a62d5d940b1a876bad0b68b7, type: 3}
-  gameplayPrefab: {fileID: -8738668265344367783, guid: 7cd0beedfb1bc7548a05fa76b42472c0, type: 3}
+  gameplayPrefab: {fileID: 4814589041175961804, guid: 7cd0beedfb1bc7548a05fa76b42472c0, type: 3}
