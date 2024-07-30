@@ -10,9 +10,7 @@ public class CharacterSpawner : NetworkBehaviour
 
     private IEnumerator WaitAndSpawnCoroutine()
     {
-        Debug.Log("Starting wait coroutine");
         yield return new WaitForSeconds(3);
-        Debug.Log("Wait coroutine finished, spawning characters");
         SpawnCharacters();
     }
 
@@ -20,13 +18,11 @@ public class CharacterSpawner : NetworkBehaviour
     {
         if (!IsServer) { return; }
 
-        Debug.Log("OnNetworkSpawn called, starting coroutine");
         StartCoroutine(WaitAndSpawnCoroutine());
     }
 
     private void SpawnCharacters()
     {
-        Debug.Log("Spawning characters");
         foreach (var client in ServerManager.Instance.ClientData)
         {
             var character = characters.GetCharacterById(client.Value.characterId);
@@ -43,12 +39,7 @@ public class CharacterSpawner : NetworkBehaviour
                 }
 
                 var characterInstance = Instantiate(character.GameplayPrefab, spawnPos, Quaternion.identity);
-                Debug.Log($"Instantiated character for client {client.Value.clientId} at position {spawnPos}");
                 characterInstance.SpawnAsPlayerObject(client.Value.clientId);
-            }
-            else
-            {
-                Debug.LogWarning($"Character not found for client {client.Value.clientId} with characterId {client.Value.characterId}");
             }
         }
     }
