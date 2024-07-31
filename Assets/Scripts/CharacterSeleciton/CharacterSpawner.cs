@@ -10,7 +10,7 @@ public class CharacterSpawner : NetworkBehaviour
 
     private IEnumerator WaitAndSpawnCoroutine()
     {
-        yield return new WaitForSeconds(3);
+        yield return new WaitForSeconds(5);
         SpawnCharacters();
     }
 
@@ -32,10 +32,12 @@ public class CharacterSpawner : NetworkBehaviour
                 if (client.Value.characterId == 1)
                 {
                     spawnPos = new Vector3(-13f, 0.6f, -56f); // Change spawnpoint for characterId 1
+                    Debug.Log("arslan spawned at " + spawnPos);
                 }
                 else if (client.Value.characterId == 2)
                 {
                     spawnPos = new Vector3(-9f, 0.6f, -56f); // Change spawnpoint for characterId 2
+                    Debug.Log("suzan spawned at " + spawnPos);
                 }
 
                 var characterInstance = Instantiate(character.GameplayPrefab, spawnPos, Quaternion.identity);

@@ -62,6 +62,4 @@ public class PlayerInteraction : MonoBehaviour
             currentInteractable = null;
         }
     }
-
-
 }

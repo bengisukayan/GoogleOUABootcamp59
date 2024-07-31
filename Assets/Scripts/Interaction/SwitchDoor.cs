@@ -1,8 +1,6 @@
 using UnityEngine;
 using Unity.Netcode;
-using System;
 using System.Collections;
-
 
 public class SwitchDoor : NetworkBehaviour
 {
@@ -33,17 +31,18 @@ public class SwitchDoor : NetworkBehaviour
 
     private IEnumerator SmoothRotateLever()
     {
-        Quaternion startRotation = Quaternion.Euler(30, gameObject.transform.rotation.eulerAngles.y, gameObject.transform.rotation.eulerAngles.z);
-        Quaternion endRotation = Quaternion.Euler(-30, gameObject.transform.rotation.eulerAngles.y, gameObject.transform.rotation.eulerAngles.z);
+        Quaternion startRotation = Quaternion.Euler(30, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z);
+        Quaternion endRotation = Quaternion.Euler(-30, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z);
         float elapsedTime = 0;
+        float duration = 1f; // Duration of the rotation
 
-        while (elapsedTime < 1f)
+        while (elapsedTime < duration)
         {
-            gameObject.transform.rotation = Quaternion.Slerp(startRotation, endRotation, elapsedTime / 1f);
+            transform.rotation = Quaternion.Slerp(startRotation, endRotation, elapsedTime / duration);
             elapsedTime += Time.deltaTime;
             yield return null;
         }
 
-        gameObject.transform.rotation = endRotation;
+        transform.rotation = endRotation;
     }
 }
