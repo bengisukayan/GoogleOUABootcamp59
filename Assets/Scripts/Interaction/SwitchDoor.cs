@@ -4,7 +4,7 @@ using System;
 using System.Collections;
 
 
-public class SwitchDoor : NetworkBehaviour, IInteractable
+public class SwitchDoor : NetworkBehaviour
 {
     public void Interact()
     {

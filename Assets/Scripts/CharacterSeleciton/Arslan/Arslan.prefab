@@ -1282,13 +1282,8 @@ PrefabInstance:
       addedObject: {fileID: 1079042575980421286}
     - targetCorrespondingSourceObject: {fileID: 1082271958561512970, guid: aeb1703f89c35b2499befa210e48d773, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8834466488229788049}
+      addedObject: {fileID: 3836951409710486885}
   m_SourcePrefab: {fileID: 100100000, guid: aeb1703f89c35b2499befa210e48d773, type: 3}
---- !u!4 &3971224871445106838 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5465940246521907071, guid: aeb1703f89c35b2499befa210e48d773, type: 3}
-  m_PrefabInstance: {fileID: 8991001572315863017}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8072453407716190904 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: aeb1703f89c35b2499befa210e48d773, type: 3}
@@ -1438,7 +1433,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1082271958561512970, guid: aeb1703f89c35b2499befa210e48d773, type: 3}
   m_PrefabInstance: {fileID: 8991001572315863017}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &8834466488229788049
+--- !u!114 &3836951409710486885
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1447,11 +1442,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8341639404081727971}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a9b47890f1ea1847820979e6c034efe, type: 3}
+  m_Script: {fileID: 11500000, guid: 8de13668719998245bf41eea8f18952c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InteractorSource: {fileID: 3971224871445106838}
-  InteractRange: 2
+  interactRange: 3
 --- !u!4 &8884701798089158658 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: aeb1703f89c35b2499befa210e48d773, type: 3}
