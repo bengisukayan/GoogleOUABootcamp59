@@ -1,48 +1,54 @@
-using UnityEngine;
-using Unity.Netcode;
 using System.Collections;
+using Unity.Netcode;
+using UnityEngine;
 
 public class SwitchDoor : NetworkBehaviour
 {
+    private bool isOpened = false;
+
     public void Interact()
     {
-        if (IsServer)
+        if (!isOpened)
         {
-            OpenLeverClientRpc();
-        }
-        else
-        {
-            OpenLeverServerRpc();
+            if (IsServer)
+            {
+                OpenDoorClientRpc();
+            }
+            else
+            {
+                OpenDoorServerRpc();
+            }
         }
     }
 
     [ServerRpc(RequireOwnership = false)]
-    private void OpenLeverServerRpc()
+    private void OpenDoorServerRpc()
     {
-        OpenLeverClientRpc();
+        OpenDoorClientRpc();
     }
 
     [ClientRpc]
-    private void OpenLeverClientRpc()
+    private void OpenDoorClientRpc()
     {
-        Debug.Log("Opened lever");
-        StartCoroutine(SmoothRotateLever());
+        isOpened = true;
+        StartCoroutine(SmoothSlideDoor());
     }
 
-    private IEnumerator SmoothRotateLever()
+    private IEnumerator SmoothSlideDoor()
     {
-        Quaternion startRotation = Quaternion.Euler(30, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z);
-        Quaternion endRotation = Quaternion.Euler(-30, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z);
-        float elapsedTime = 0;
-        float duration = 1f; // Duration of the rotation
+        float elapsedTime = 0f;
+        float duration = 2f; // Duration of the sliding movement
+
+        Vector3 startPosition = new Vector3(transform.position.x, -0.25f, transform.position.z);
+        Vector3 endPosition = new Vector3(transform.position.x, -3f, transform.position.z);
 
         while (elapsedTime < duration)
         {
-            transform.rotation = Quaternion.Slerp(startRotation, endRotation, elapsedTime / duration);
+            transform.position = Vector3.Lerp(startPosition, endPosition, elapsedTime / duration);
             elapsedTime += Time.deltaTime;
             yield return null;
         }
 
-        transform.rotation = endRotation;
+        transform.position = endPosition;
     }
 }
