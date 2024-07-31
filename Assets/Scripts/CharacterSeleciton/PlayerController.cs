@@ -23,6 +23,7 @@ public class PlayerController : NetworkBehaviour
     float turnSmoothVelocity;
     public float turnSmoothTime = 0.1f;
 
+
     public override void OnNetworkSpawn()
     {
 		if (IsOwner) {
