@@ -134,6 +134,8 @@ Sprint Review katılımcıları: Arda Acar, Ahmet Aydinli, Azra Gülbahar, Bengi
 - İntro ve Outro müziği'nin yanı sıra, karakterlerin kendine has çıkardığı seslerde yapılmıştır.
 - Karakter seçim ekranı bitirilmiştir.
 - Boss bölümü için yapılan NPC ML Agent çalışmasının prototipi yapılmıştır. 
-- Son haftayı daha iyi değerlendirmek adına her gün toplanıp birlikte çalışma kararı alınmıştır.
+- Son 2 haftayı daha iyi değerlendirmek adına daha sık toplanıp birlikte çalışma kararı alınmıştır.
 
 # SPRINT 3
+Sprint içinde tamamlanması tahmin edilen puan: 20 puan.
+Daha sık toplanıp birlikte çalışma kararı alınmıştır
