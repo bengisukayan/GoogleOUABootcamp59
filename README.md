@@ -135,3 +135,5 @@ Sprint Review katılımcıları: Arda Acar, Ahmet Aydinli, Azra Gülbahar, Bengi
 - Karakter seçim ekranı bitirilmiştir.
 - Boss bölümü için yapılan NPC ML Agent çalışmasının prototipi yapılmıştır. 
 - Son haftayı daha iyi değerlendirmek adına her gün toplanıp birlikte çalışma kararı alınmıştır.
+
+# SPRINT 3
