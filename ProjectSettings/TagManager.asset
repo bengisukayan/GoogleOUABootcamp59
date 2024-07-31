@@ -8,6 +8,7 @@ TagManager:
   - MBS:Wall
   - Ground
   - EnemyProjectile
+  - Sular
   layers:
   - Default
   - TransparentFX
