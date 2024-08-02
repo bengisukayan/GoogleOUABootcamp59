@@ -158,8 +158,11 @@ Oyunu tamamen bitirmek için geride kalan tüm görevlerin tamamlanması gerekti
 ###  Daily Scrum: 
 Yoğunlukla Discord üzerinden görüşmeler sağlanmıştır. Son 2 hafta birlikte çalışarak geçirilmiştir. 
 
-##### Toplantı ve Whatsapp ScreenShotları 
-##### Sprint 3 board update: Sprint Board Screenshot:
+##### Toplantı ve Whatsapp ScreenShotları
+[screenshoots] https://drive.google.com/drive/folders/1D95cfmgSg7t5QxmUkKqOQyZygNt2rQZW?usp=sharing
+##### Sprint 3 board update: Sprint Board Screenshot: 
+<img width="1431" alt="Ekran Resmi 2024-08-02 22 12 54" src="https://github.com/user-attachments/assets/d795b52a-1e3f-48b6-811c-0dd4c95d4a94">
+
 ### Ürün Durumu: 
 ### Sprint Review:
 ### Sprint Retrospective:
