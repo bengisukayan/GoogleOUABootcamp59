@@ -159,10 +159,17 @@ Oyunu tamamen bitirmek için geride kalan tüm görevlerin tamamlanması gerekti
 Yoğunlukla Discord üzerinden görüşmeler sağlanmıştır. Son 2 hafta birlikte çalışarak geçirilmiştir. 
 
 ##### Toplantı ve Whatsapp ScreenShotları
-[screenshoots] https://drive.google.com/drive/folders/1D95cfmgSg7t5QxmUkKqOQyZygNt2rQZW?usp=sharing
+### [screenshoots](https://drive.google.com/drive/folders/1D95cfmgSg7t5QxmUkKqOQyZygNt2rQZW?usp=sharing)
 ##### Sprint 3 board update: Sprint Board Screenshot: 
 <img width="1431" alt="Ekran Resmi 2024-08-02 22 12 54" src="https://github.com/user-attachments/assets/d795b52a-1e3f-48b6-811c-0dd4c95d4a94">
 
-### Ürün Durumu: 
-### Sprint Review:
+### Ürün Durumu: <img width="1126" alt="Ekran Resmi 2024-08-02 22 20 21" src="https://github.com/user-attachments/assets/3597771c-31f0-4eab-aa19-f27c2e36aa0f">
+<img width="1126" alt="Ekran Resmi 2024-08-02 22 35 46" src="https://github.com/user-attachments/assets/d5237a05-407a-4a38-8693-4f525f25ca77">
+<img width="1126" alt="Ekran Resmi 2024-08-02 22 46 31" src="https://github.com/user-attachments/assets/11aab5e1-bd90-490d-bd60-5bf07e426c15">
+<img width="1126" alt="Ekran Resmi 2024-08-02 22 37 18" src="https://github.com/user-attachments/assets/582b90bc-fb7b-4a9e-b1cf-20f155d7ea87">
+
+### Sprint Review
+Takım ruhunu koruyup Scrum boyunca özveriyle çalışıldığı için takım üyeleri birbirini tebrik etti ve teşekkür etti.
+5 karakter tasarımı, 3 adet map tasarımı, birden fazla platform kodları, farklı mekanikler, karakter ve platform animasyonları, online server sistemi, 3d tasarım assetleri, kamera entegrasyonu ve reklam entegrasyonu yapılmıştır.
+Tamamlanması gereken 36 puanlık backlog puanı tamamlanmıştır.Sprint Review katılımcıları: Arda Acar, Ahmet Aydinli, Azra Gülbahar, Bengisu Kayan, Beyza Çisem Atak
 ### Sprint Retrospective:
