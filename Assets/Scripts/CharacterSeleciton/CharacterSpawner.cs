@@ -10,7 +10,7 @@ public class CharacterSpawner : NetworkBehaviour
 
     private IEnumerator WaitAndSpawnCoroutine()
     {
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
         SpawnCharacters();
     }
 
@@ -31,7 +31,7 @@ public class CharacterSpawner : NetworkBehaviour
                 Vector3 spawnPos = Vector3.zero;
                 if (client.Value.characterId == 1)
                 {
-                    spawnPos = new Vector3(-13f, 0.6f, 7f); // Change spawnpoint for characterId 1
+                    spawnPos = new Vector3(-13f, 0.6f, -56f); // Change spawnpoint for characterId 1
                     Debug.Log("arslan spawned at " + spawnPos);
                 }
                 else if (client.Value.characterId == 2)

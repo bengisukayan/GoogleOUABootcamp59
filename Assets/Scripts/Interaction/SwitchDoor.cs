@@ -40,7 +40,7 @@ public class SwitchDoor : NetworkBehaviour
         float duration = 2f; // Duration of the sliding movement
 
         Vector3 startPosition = new Vector3(transform.position.x, -0.25f, transform.position.z);
-        Vector3 endPosition = new Vector3(transform.position.x, -3f, transform.position.z);
+        Vector3 endPosition = new Vector3(transform.position.x, -4f, transform.position.z);
 
         while (elapsedTime < duration)
         {
