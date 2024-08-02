@@ -36,7 +36,7 @@ public class CharacterSpawner : NetworkBehaviour
                 }
                 else if (client.Value.characterId == 2)
                 {
-                    spawnPos = new Vector3(-9f, 0.6f, -56f); // Change spawnpoint for characterId 2
+                    spawnPos = new Vector3(9f, 0.6f, -56f); // Change spawnpoint for characterId 2
                     Debug.Log("suzan spawned at " + spawnPos);
                 }
 
