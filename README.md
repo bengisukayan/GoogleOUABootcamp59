@@ -100,7 +100,7 @@ Sound Design: Azra Gülbahar
 - Unity içerisinde kullanılacak shaderlar seçilmiştir.
 
   # SPRINT 2
-- Sprint içinde tamamlanması tahmin edilen puan: 20 puan.
+- Sprint içinde tamamlanması tahmin edilen puan: 20 puan.Ana karakter modellemelerinin rig, idle animasyon ve texturelarıyla tamamen bitmesi. ( 9puan ) İntro ve Outro müziğinin yapılması (2 puan) Karakterlerin kendilerine özel seslerinin yapılması (2 puan). ilk 3 levellın prototiplenmesi. (3 Puan) ilk 2 level'ın asetlerinin yerleştirilmesi (2 puan) Lobi ekranının yapılması. (1 puan) Çalışan bir NPC kodunun yazılması. (1 puan) = hedeflenen puan 20'dir.
 
 ### Daily Scrum: 
 Daily Scrum toplantıları hem Whatsapp üzerinden hem de Discord üzerinden devam etmiştir. Discord'da haftada birkaç gün toplantılar yapılmıştır. Tasarımlar için grup olarak birlikte fikir birliğine varılmıştır. Günlük olarak mekanik yazılımları ve modellemeler yapılmıştır.
@@ -126,12 +126,11 @@ https://github.com/user-attachments/assets/dbd0d86e-6a50-4593-bb10-edcc6a9f07a7
 
 
 
-# 2. Sprint'in amacı
-Ana karakter modellemelerinin rig, idle animasyon ve texturelarıyla tamamen bitmesi. ( 9puan ) İntro ve Outro müziğinin yapılması (2 puan) Karakterlerin kendilerine özel seslerinin yapılması (2 puan). ilk 3 levellın prototiplenmesi. (3 Puan) ilk 2 level'ın asetlerinin yerleştirilmesi (2 puan) Lobi ekranının yapılması. (1 puan) Çalışan bir NPC kodunun yazılması. (1 puan) = hedeflenen puan 20'dir.
-
 ### Sprint Review:
 
-Sprint 2'nin sonunda ekip ile toplanılmış ve Sprint gözden geçirilmiştir. Bütün amaçlara ulaşılmıştır. Multiplayer bir oyun tasarlandığı için online sistemde kod yazılması gerektiği konuşulmuşdur ve 3. Sprint'e bırakılmıştır. Tasarım dili karar verilmiş ve oyuna entegre edilmiştir.
+- Sprint 2'nin sonunda ekip ile toplanılmış ve Sprint gözden geçirilmiştir. 
+- Bütün amaçlara ulaşılmıştır. Multiplayer bir oyun tasarlandığı için online sistemde kod yazılması gerektiği konuşulmuşdur ve 3. Sprint'e bırakılmıştır. 
+- Tasarım dili karar verilmiş ve oyuna entegre edilmiştir.
 Sprint Review katılımcıları: Arda Acar, Ahmet Aydinli, Azra Gülbahar, Bengisu Kayan, Beyza Çisem Atak
 
 ### Sprint Retrospective:
@@ -140,26 +139,17 @@ Sprint Review katılımcıları: Arda Acar, Ahmet Aydinli, Azra Gülbahar, Bengi
 - Ana 2 karakterin ve bölüm sonu boss'un modellemeleri ve texture'ları yapılmıştır. Idle Animasyonları ile birlikte game ready bir şekilde bitirilmiştir.
 - İntro ve Outro müziği'nin yanı sıra, karakterlerin kendine has çıkardığı seslerde yapılmıştır.
 - Karakter seçim ekranı bitirilmiştir.
-- Boss bölümü için yapılan NPC ML Agent çalışmasının prototipi yapılmıştır. 
+- Boss bölümü için yapılan NPC çalışmasının prototipi yapılmıştır. 
 - Son 2 haftayı daha iyi değerlendirmek adına daha sık toplanıp birlikte çalışma kararı alınmıştır.
 
 # SPRINT 3
-Sprint içinde tamamlanması tahmin edilen puan: 36 puandır.
-###  Puan tamamlama mantığı: 
-Proje boyunca tamamlanması gereken backlog puanı 36'dır. Her bir görev 1 puandır. Üçüncü Sprint için bitirilmesi istenilen puan sayısı 36 olarak belirlenmiştir ve hedefe ulaşılmıştır.
-### Sprint Amacı
-Oyunu tamamen bitirmek için geride kalan tüm görevlerin tamamlanması gerektiğine karar verilmiştir. 
-- Tüm karakterlerin animasyonlarının eklenmesi
-- Bölümlerin hepsinin assetlerinin tamamlanması ve detayların eklenmesi. 
-- Seslerin ve ses efektlerinin eklenmesi.
-- Boss Fight bölümünün çalışması.
-- İnteraction olan bölümlerinin fonksiyonlarının yazılması.
+Sprint içinde tamamlanması tahmin edilen puan: 36 puandır. Her bir görev 1 puandır. Üçüncü Sprint için bitirilmesi istenilen puan sayısı 36 olarak belirlenmiştir ve hedefe ulaşılmıştır.
 
 ###  Daily Scrum: 
 Yoğunlukla Discord üzerinden görüşmeler sağlanmıştır. Son 2 hafta birlikte çalışarak geçirilmiştir. 
 
 ##### Toplantı ve Whatsapp ScreenShotları
-### [screenshoots](https://drive.google.com/drive/folders/1D95cfmgSg7t5QxmUkKqOQyZygNt2rQZW?usp=sharing)
+##### [screenshoots](https://drive.google.com/drive/folders/1D95cfmgSg7t5QxmUkKqOQyZygNt2rQZW?usp=sharing)
 ##### Sprint 3 board update: Sprint Board Screenshot: 
 <img width="1431" alt="Ekran Resmi 2024-08-02 22 12 54" src="https://github.com/user-attachments/assets/d795b52a-1e3f-48b6-811c-0dd4c95d4a94">
 
@@ -175,6 +165,14 @@ https://github.com/user-attachments/assets/a9ab23ab-98ae-4293-8e42-8454887004c8
 
 ### Sprint Review
 Takım ruhunu koruyup Scrum boyunca özveriyle çalışıldığı için takım üyeleri birbirini tebrik etti ve teşekkür etti.
-5 karakter tasarımı, 3 adet map tasarımı, birden fazla platform kodları, farklı mekanikler, karakter ve platform animasyonları, online server sistemi, 3d tasarım assetleri, kamera entegrasyonu ve reklam entegrasyonu yapılmıştır.
-Tamamlanması gereken 36 puanlık backlog puanı tamamlanmıştır.Sprint Review katılımcıları: Arda Acar, Ahmet Aydinli, Azra Gülbahar, Bengisu Kayan, Beyza Çisem Atak
+- Tüm karakterlerin animasyonları bitirilmiştir.
+- Bölümlerin hepsinin assetlerinin tamamlanması ve detayların eklenmiştir.
+- Seslerin ve ses efektlerinin eklenmiştir.
+- Boss Fight bölümünün çalıştırılmıştır ancak projeye eklenememiştir.
+- İnteraction olan bölümlerinin fonksiyonlarının yazılmıştır.
+- Tamamlanması gereken 36 puanlık backlog puanı tamamlanmıştır.
+
+Sprint Review katılımcıları: Arda Acar, Ahmet Aydinli, Azra Gülbahar, Bengisu Kayan, Beyza Çisem Atak
+
 ### Sprint Retrospective:
+Projeyi yaparken çok keyif alındığından bahsedildi ve projemizin eksiklerini tamamlamak üzerinde konuşuldu. 
