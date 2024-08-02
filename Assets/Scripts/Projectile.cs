@@ -1,25 +1,17 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    public float damage = 10f;  // Topun vereceði hasar miktarý
-
-    private void OnCollisionEnter(Collision collision)
+    private void OnTriggerEnter(Collider other)
     {
-        // Karakterin tag'ini kontrol edin
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.CompareTag("Enemy"))
         {
-            CanBari canBari = collision.gameObject.GetComponent<CanBari>();
-            if (canBari != null)
+            NPCHealth npcHealth = other.GetComponent<NPCHealth>();
+            if (npcHealth != null)
             {
-                canBari.TakeDamage(damage);  // Caný azaltma metodunu çaðýrýn
-                Debug.Log("Top karaktere çarptý, hasar verildi.");
+                npcHealth.TakeDamage(100); // Top NPC'yi tek atýþta yok eder
             }
-
-            // Topu deaktivasyon
-            gameObject.SetActive(false);
+            gameObject.SetActive(false); // Topu devre dýþý býrak
         }
     }
 }

@@ -13,7 +13,7 @@ public class NPCAI : MonoBehaviour
     private bool destinationPointSet;
     public float walkPointRange;
 
-    public float timeBetweenAttacks;
+    public float timeBetweenAttacks = 7.0f; // Saldýrýlar arasýndaki zaman (saniye cinsinden)
     private bool alreadyAttacked;
     public ObjectPool spherePool;
 
@@ -30,6 +30,7 @@ public class NPCAI : MonoBehaviour
         playerInSightRange = Physics.CheckSphere(transform.position, sightRange, player);
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, player);
 
+        // Patrol, Chase, Attack
         if (!playerInSightRange && !playerInAttackRange) Patroling();
         if (playerInSightRange && !playerInAttackRange) ChasePlayer();
         if (playerInSightRange && playerInAttackRange) AttackPlayer();
@@ -75,23 +76,29 @@ public class NPCAI : MonoBehaviour
     void AttackPlayer()
     {
         _agent.SetDestination(transform.position);
+
         transform.LookAt(_player);
 
         if (!alreadyAttacked)
         {
             GameObject sphere = spherePool.GetPooledObject();
-            sphere.transform.position = transform.position;
-            sphere.transform.rotation = Quaternion.identity;
-            sphere.SetActive(true);
+            if (sphere != null)
+            {
+                sphere.transform.position = transform.position + transform.forward * 2f; // Topun atýlacaðý pozisyonu ayarla
+                sphere.transform.rotation = Quaternion.identity;
+                sphere.SetActive(true);
 
-            Rigidbody rb = sphere.GetComponent<Rigidbody>();
-            rb.velocity = Vector3.zero;
-            rb.angularVelocity = Vector3.zero;
-            rb.AddForce(transform.forward * 25f, ForceMode.Impulse);
-            rb.AddForce(transform.up * 7f, ForceMode.Impulse);
+                Rigidbody rb = sphere.GetComponent<Rigidbody>();
+                rb.velocity = Vector3.zero; // Var olan hýzý sýfýrla
+                rb.angularVelocity = Vector3.zero; // Var olan açýsal hýzý sýfýrla
+                Vector3 directionToPlayer = (_player.position - sphere.transform.position).normalized;
+                rb.AddForce(directionToPlayer * 25f, ForceMode.Impulse);
+
+                sphere.tag = "EnemyProjectile"; // Mermiye doðru etiketi atadýðýmýzdan emin olalým
+            }
 
             alreadyAttacked = true;
-            Invoke(nameof(ResetAttack), timeBetweenAttacks);
+            Invoke(nameof(ResetAttack), timeBetweenAttacks); // timeBetweenAttacks süresi boyunca yeni bir saldýrý baþlatýlamaz
         }
     }
 
