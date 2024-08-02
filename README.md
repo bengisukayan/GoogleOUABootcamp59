@@ -34,10 +34,12 @@ Kedilerin hikayenin baş karakteri olduğu alternatif bir evrende geçen bu hika
 
 # Oyun Özelikleri
 
+-  Puzzle Kaçış Oyunu
 -  3D
 -  Multiplayer
--  Voice Chat
--  ML Agents
+-  Unity Relay
+-  Unity AI
+  
 
 # Hedef Kitle
 -  Puzzle Sevenler
@@ -90,6 +92,7 @@ Sound Design: Azra Gülbahar
 * Map ve karakterlerin sayısına, low poly stilize bir tasarım diline hakim olmasına karar verilmiştir.
 * Unity içerisinde kullanılacak shaderlar seçilmiştir. 
 * Sprint Review katılımcıları: Arda Acar, Ahmet Aydinli, Azra Gülbahar, Bengisu Kayan, Beyza Çisem Atak
+* 
 ### Sprint Retrospective:
 - Karakter isimlerini tekrar gündeme getirildi ve karakter isimleri değiştirildi.
 - Toplantılar’a daha fazla zaman ayırma konusunda hemfikir oldundu.
@@ -106,10 +109,13 @@ Daily Scrum toplantıları hem Whatsapp üzerinden hem de Discord üzerinden dev
 
 ###### Toplantı ve Whatsapp ScreenShotları:
 [ScreenShots](https://drive.google.com/drive/folders/1onGEqUEuWtbP87zE8x0vkDhA529i9us8?usp=sharing)
-#### Sprint 1 board update: Sprint Board Screenshot:
+
+#### Sprint 2 board update: Sprint Board Screenshot:
+
 <img width="1427" alt="Ekran Resmi 2024-07-21 18 46 46" src="https://github.com/user-attachments/assets/6217d5d5-61ed-4fce-b142-e40a357f32a4">
 
 #### Ürün Durumu: Ekran Görüntüleri:
+
 <img width="537" alt="Ekran Resmi 2024-07-21 20 26 49" src="https://github.com/user-attachments/assets/b127c59a-b0eb-4bc6-a377-71079250fe7a">
 <img width="645" alt="Ekran Resmi 2024-07-21 20 58 42" src="https://github.com/user-attachments/assets/c20ff6a6-a7cc-4650-ac72-c16f3232f6da">
 <img width="645" alt="Ekran Resmi 2024-07-21 21 08 12" src="https://github.com/user-attachments/assets/854119db-fa58-402e-b6e3-9fd0fd2448fd">
@@ -122,12 +128,13 @@ https://github.com/user-attachments/assets/dbd0d86e-6a50-4593-bb10-edcc6a9f07a7
 
 # 2. Sprint'in amacı
 Ana karakter modellemelerinin rig, idle animasyon ve texturelarıyla tamamen bitmesi. ( 9puan ) İntro ve Outro müziğinin yapılması (2 puan) Karakterlerin kendilerine özel seslerinin yapılması (2 puan). ilk 3 levellın prototiplenmesi. (3 Puan) ilk 2 level'ın asetlerinin yerleştirilmesi (2 puan) Lobi ekranının yapılması. (1 puan) Çalışan bir NPC kodunun yazılması. (1 puan) = hedeflenen puan 20'dir.
-# Sprint Review:
+
+### Sprint Review:
 
 Sprint 2'nin sonunda ekip ile toplanılmış ve Sprint gözden geçirilmiştir. Bütün amaçlara ulaşılmıştır. Multiplayer bir oyun tasarlandığı için online sistemde kod yazılması gerektiği konuşulmuşdur ve 3. Sprint'e bırakılmıştır. Tasarım dili karar verilmiş ve oyuna entegre edilmiştir.
 Sprint Review katılımcıları: Arda Acar, Ahmet Aydinli, Azra Gülbahar, Bengisu Kayan, Beyza Çisem Atak
 
-# Sprint Retrospective:
+### Sprint Retrospective:
 - Sprint 2 için alınan puan 22'dir. 
 - Oyunda daha önce üzerine konuşulan ve kararlaştırılan levelların ilk 3 bölümünün prototiplemesi bitmiştir. İlk iki bölümün textureları ve asset yerleştirilmesine başlanmıştır. 
 - Ana 2 karakterin ve bölüm sonu boss'un modellemeleri ve texture'ları yapılmıştır. Idle Animasyonları ile birlikte game ready bir şekilde bitirilmiştir.
@@ -137,5 +144,22 @@ Sprint Review katılımcıları: Arda Acar, Ahmet Aydinli, Azra Gülbahar, Bengi
 - Son 2 haftayı daha iyi değerlendirmek adına daha sık toplanıp birlikte çalışma kararı alınmıştır.
 
 # SPRINT 3
-Sprint içinde tamamlanması tahmin edilen puan: 20 puan.
-Daha sık toplanıp birlikte çalışma kararı alınmıştır
+Sprint içinde tamamlanması tahmin edilen puan: 36 puandır.
+###  Puan tamamlama mantığı: 
+Proje boyunca tamamlanması gereken backlog puanı 36'dır. Her bir görev 1 puandır. Üçüncü Sprint için bitirilmesi istenilen puan sayısı 36 olarak belirlenmiştir ve hedefe ulaşılmıştır.
+### Sprint Amacı
+Oyunu tamamen bitirmek için geride kalan tüm görevlerin tamamlanması gerektiğine karar verilmiştir. 
+- Tüm karakterlerin animasyonlarının eklenmesi
+- Bölümlerin hepsinin assetlerinin tamamlanması ve detayların eklenmesi. 
+- Seslerin ve ses efektlerinin eklenmesi.
+- Boss Fight bölümünün çalışması.
+- İnteraction olan bölümlerinin fonksiyonlarının yazılması.
+
+###  Daily Scrum: 
+Yoğunlukla Discord üzerinden görüşmeler sağlanmıştır. Son 2 hafta birlikte çalışarak geçirilmiştir. 
+
+##### Toplantı ve Whatsapp ScreenShotları 
+##### Sprint 3 board update: Sprint Board Screenshot:
+### Ürün Durumu: 
+### Sprint Review:
+### Sprint Retrospective:
