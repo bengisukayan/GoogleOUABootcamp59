@@ -11,6 +11,8 @@ TagManager:
   - Interactable
   - kutu
   - Sular
+  - Enemy
+  - PlayerProjectile
   layers:
   - Default
   - TransparentFX
