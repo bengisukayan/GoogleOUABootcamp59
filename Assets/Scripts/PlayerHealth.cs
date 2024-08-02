@@ -19,7 +19,7 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        currentHealth = Mathf.Max(currentHealth, 0); // Can�n 0'�n alt�na d��mesini engelle
+        currentHealth = Mathf.Max(currentHealth, 0); // Canın 0'ın altına düşmesini engelle
         healthBar.SetHealth(currentHealth);
         UpdateHealthText();
 
