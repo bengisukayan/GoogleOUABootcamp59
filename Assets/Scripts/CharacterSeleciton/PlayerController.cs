@@ -8,6 +8,7 @@ public class PlayerController : NetworkBehaviour
     public Transform cam;
 	public CinemachineFreeLook vc;
 	public AudioListener listener;
+    public AudioSource source;
 	public Animator animator;
 
     public float speed = 6;
@@ -28,6 +29,7 @@ public class PlayerController : NetworkBehaviour
     {
 		if (IsOwner) {
 			listener.enabled = true;
+            source.enabled = true;
 			vc.Priority = 1;
 		}
 		else {

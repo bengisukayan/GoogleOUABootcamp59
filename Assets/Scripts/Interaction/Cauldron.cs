@@ -8,11 +8,13 @@ public class Cauldron : MonoBehaviour
     private int currentIndex;
     public UnityEvent onFinish;
     public Renderer swirl;
+    private AudioSource audioSource;
 
     private void Start()
     {
         currentOrder = new int[correctOrder.Length];
         currentIndex = 0;
+        audioSource = GetComponent<AudioSource>();
     }
 
     public void PotionInteracted(int potionID)
@@ -39,6 +41,7 @@ public class Cauldron : MonoBehaviour
             if (currentOrder[i] != correctOrder[i])
             {
                 Debug.Log("Incorrect order. Try again.");
+                audioSource.Play();
                 ResetOrder();
                 return;
             }
