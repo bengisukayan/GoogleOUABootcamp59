@@ -167,6 +167,7 @@ Yoğunlukla Discord üzerinden görüşmeler sağlanmıştır. Son 2 hafta birli
 <img width="1126" alt="Ekran Resmi 2024-08-02 22 35 46" src="https://github.com/user-attachments/assets/d5237a05-407a-4a38-8693-4f525f25ca77">
 <img width="1126" alt="Ekran Resmi 2024-08-02 22 46 31" src="https://github.com/user-attachments/assets/11aab5e1-bd90-490d-bd60-5bf07e426c15">
 <img width="1126" alt="Ekran Resmi 2024-08-02 22 37 18" src="https://github.com/user-attachments/assets/582b90bc-fb7b-4a9e-b1cf-20f155d7ea87">
+https://drive.google.com/file/d/1RhY0e114CEFqKF7ooZS7mP-S8WVX_kZA/view?usp=sharing
 
 ### Sprint Review
 Takım ruhunu koruyup Scrum boyunca özveriyle çalışıldığı için takım üyeleri birbirini tebrik etti ve teşekkür etti.
