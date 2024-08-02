@@ -17,8 +17,11 @@ public class Cauldron : MonoBehaviour
 
     public void PotionInteracted(int potionID)
     {
+        if (currentIndex > 0 && potionID == currentOrder[currentIndex-1]) 
+            return ;
         if (currentIndex < correctOrder.Length)
         {
+            Debug.Log(potionID + " taken");
             currentOrder[currentIndex] = potionID;
             currentIndex++;
 
@@ -50,6 +53,7 @@ public class Cauldron : MonoBehaviour
 
     private void TriggerLevelFinish()
     {
+        Debug.Log("Correct order");
         swirl.material.color = Color.red;
         onFinish.Invoke();
     }
