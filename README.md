@@ -169,6 +169,10 @@ Yoğunlukla Discord üzerinden görüşmeler sağlanmıştır. Son 2 hafta birli
 <img width="1126" alt="Ekran Resmi 2024-08-02 22 37 18" src="https://github.com/user-attachments/assets/582b90bc-fb7b-4a9e-b1cf-20f155d7ea87">
 https://drive.google.com/file/d/1RhY0e114CEFqKF7ooZS7mP-S8WVX_kZA/view?usp=sharing
 
+
+https://github.com/user-attachments/assets/a9ab23ab-98ae-4293-8e42-8454887004c8
+
+
 ### Sprint Review
 Takım ruhunu koruyup Scrum boyunca özveriyle çalışıldığı için takım üyeleri birbirini tebrik etti ve teşekkür etti.
 5 karakter tasarımı, 3 adet map tasarımı, birden fazla platform kodları, farklı mekanikler, karakter ve platform animasyonları, online server sistemi, 3d tasarım assetleri, kamera entegrasyonu ve reklam entegrasyonu yapılmıştır.
