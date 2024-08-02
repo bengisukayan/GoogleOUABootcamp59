@@ -9,7 +9,6 @@ public class Potion : MonoBehaviour
     {
         if (cauldron != null)
         {
-            Debug.Log(potionID + " pressed");
             cauldron.PotionInteracted(potionID);
         }
     }

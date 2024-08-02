@@ -17,8 +17,11 @@ public class Cauldron : MonoBehaviour
 
     public void PotionInteracted(int potionID)
     {
+        if (currentIndex > 0 && potionID == currentOrder[currentIndex-1]) 
+            return ;
         if (currentIndex < correctOrder.Length)
         {
+            Debug.Log(potionID + " taken");
             currentOrder[currentIndex] = potionID;
             currentIndex++;
 
