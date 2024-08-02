@@ -50,6 +50,7 @@ public class Cauldron : MonoBehaviour
 
     private void TriggerLevelFinish()
     {
+        Debug.Log("Correct order");
         swirl.material.color = Color.red;
         onFinish.Invoke();
     }
