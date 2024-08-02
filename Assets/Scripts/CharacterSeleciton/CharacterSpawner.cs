@@ -31,12 +31,12 @@ public class CharacterSpawner : NetworkBehaviour
                 Vector3 spawnPos = Vector3.zero;
                 if (client.Value.characterId == 1)
                 {
-                    spawnPos = new Vector3(-13f, 0.6f, 8f); // Change spawnpoint for characterId 1
+                    spawnPos = new Vector3(-13f, 0.6f, -56f); // Change spawnpoint for characterId 1
                     Debug.Log("arslan spawned at " + spawnPos);
                 }
                 else if (client.Value.characterId == 2)
                 {
-                    spawnPos = new Vector3(11f, 0.6f, 8f); // Change spawnpoint for characterId 2
+                    spawnPos = new Vector3(9f, 0.6f, -56f); // Change spawnpoint for characterId 2
                     Debug.Log("suzan spawned at " + spawnPos);
                 }
 
